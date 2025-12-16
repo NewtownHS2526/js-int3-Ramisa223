@@ -43,19 +43,19 @@ let shoes = 89.78;
 /// Then, call them with different inputs to check the result.
 
 function getRandomNum() {
-    return Math.floor(Math.random() * 100);
+    return Math.random();
 }
 
 function greeting(name) {
-    return `Hello ${name}, I'm glad you can make it!`;
+ return 'Hello ${name} , welcome to the program!';
 }
 
-function perfectRoot(x) {
+function isperfectsquareroot(x) {
     let root = Math.sqrt(x);
     if (Math.floor(root) === root) {
         return root;
     } else {
-        return "No perfect root"
+        return -1;
     }
 }
 
@@ -72,7 +72,7 @@ const addNums = (x, y) => {
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
-    if( ) { 
+    if( name === "Beyonce" ) { 
         return "Welcome Queen!";
     } else {
         return `Sorry {name}, you're not Beyonce`;
@@ -85,7 +85,7 @@ const isBeyonce = (name) => {
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
 const reduceEvens = (x) => {
-    if( ){
+    if( x % 2 === 0 ) {
 
     } else {
         return x;

@@ -7,3 +7,47 @@ body {
   .container {
     text-align: center;
   }
+
+  h1 {
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #555;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  code {
+    background-color: #5a537c;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  a {
+    color: #60a0e0;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }   
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #db8989;
+  }
+  .footer a {
+    color: #861a1aee;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .hidden {
+    display: none;
+  }
+  .highlight {
+    background-color: #611313;
+  }
+  
